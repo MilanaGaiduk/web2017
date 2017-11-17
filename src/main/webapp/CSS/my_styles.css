@@ -1,0 +1,183 @@
+
+/*body{
+    background-image: url(../images/background.jpg)
+}*/
+.upper_block {
+    height: 180px; /* Высота блока */
+    width: 100%; /* Ширина блока */
+    background-image: url(../images/fieldcut.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+    border: solid 1px black;
+    margin: 0;      /*???*/
+    font-size: 150%;
+
+}
+#namesite {
+    position:absolute;
+    /*left:85%;*/
+    right: 2%;
+    top: 10%;
+}
+.menu {
+    height: 15px;
+    width: 100%;
+    background: green;
+    border: solid 1px black;
+}
+.tr { /* 3 */
+    clear: both; /* Отменяет действие float */
+}
+.picture{
+    /*height: 70px;*/
+    width: 50%;
+    position:absolute;
+    left:0%;
+    top:40%;
+}
+
+.picture_in_list{
+    /*height: 70px;*/
+    width: 50%;
+
+}
+
+.tabs{
+    position:absolute;
+    left:50%;
+    top: 40%;
+}
+
+.buttons{
+    background: chartreuse;
+}
+
+.buttons_clicked{
+    background: forestgreen;
+}
+
+.buy{
+    position:absolute;
+    left:50%;
+    top: 70%;
+}
+
+#price{
+    position:absolute;
+    left:50%;
+    top: 60%;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.item{
+    /*width: 10%;*/
+    position:absolute;
+    /*left:0%;*/
+    top:40%;
+}
+
+.flags{
+    position:absolute;
+    left:85%;
+    top: 2%;
+}
+
+#ru{
+    left:85%
+}
+
+#en{
+    left:90%
+}
+#de{
+    left:95%
+}
+
+.topbutton{
+    background: #00ff00;
+    position:absolute;
+    font-size: 18px;
+    font-family: Tahoma;
+    top: 17%;
+}
+.loginbutton{
+    background: #00ff00;
+    position:absolute;
+    font-size: 18px;
+    font-family: Tahoma;
+    top: 54%;
+}
+
+.btn {
+    visibility: visible; /*hidden*/
+    background: #00ff00;
+    border-radius: 1px;
+    font-family: Tahoma;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart{
+    margin: 0 15% 0 15%;
+    height: 100%;
+    width: 70%;
+}
+
+.cartTitle{
+    margin: 0 30% 0 30%;
+    width: 40%;
+    font-size: 25px;
+    font-family: Trebuchet MS;
+}
+
+.cartElem{
+    display: inline-block;
+    height: 140px;
+    vertical-align: top;
+}
+
+.cartPicture{
+    height: 120px;
+    width: 303px;
+    margin: 3px;
+    margin-left: 6px;
+    display: inline-block;
+
+}
+
+.cartMain{
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.cartCount{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Trebuchet MS;
+    margin: 15px;
+}
+
+.cartSumm{
+    margin: 0 0% 0 0%;
+    width: 100%;
+    font-size: 25px;
+    border: 2px solid grey;
+    font-family: Trebuchet MS;
+    background-color: #4CAF50;
+}
+
+.cartSummText{
+    margin: 0 15% 0 15%;
+    width: 70%;
+}
